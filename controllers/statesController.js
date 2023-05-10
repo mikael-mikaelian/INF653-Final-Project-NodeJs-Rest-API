@@ -304,7 +304,7 @@ const deleteFunFact = async (req, res) => {
         );
 
         // Return the updated state object
-        return res.json(deleteResultWithNullRemoved);
+        return res.json(deletionResultWithNullRemoved);
       }
       // If the state has no fun facts in the database, return an error message
 
